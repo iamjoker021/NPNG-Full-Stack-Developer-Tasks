@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.5rem;
+}
+
+/* Typogrphy */
+header h1 {
+    font-size: 1.5rem;
+}
+
+.heading h2 {
+    font-size: 3rem;
+}
+
+/* Style */
+.heading {
+    background-color: rgb(122, 120, 120);
+    color: whitesmoke;
+}
+
+footer {
+    background-color: gray;
+    color: whitesmoke;
+}
+
+aside {
+    background-color: lightgray;
+}
+
+aside, section {
+    padding: 2rem 1rem;
+}
+
+h1, h2, p {
+    margin-bottom: 1rem;
+}
+
+/* Layout */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 1 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.heading {
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+}
+
+
+aside {
+    grid-column: 1 / 2;
+    grid-row: 3 / 6;
+}
+
+.main-content {
+    grid-column: 2 / 4;
+    grid-row: 3 / 6;
+}
+
+footer {
+    grid-column: 1 / 4;
+    grid-row: 6 / 7;
+}
+
+.heading, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
