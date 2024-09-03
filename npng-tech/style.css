@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Style */
+body, header {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.scroll-margin {
+    scroll-margin: 120px;
+}
+
+.brand-logo a{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.brand-logo img{
+    max-width: 50px;
+}
+
+a:hover {
+    color: orange;
+}
+
+.section-header {
+    color: orange;
+}
+
+section.home .section-header {
+    font-size: xx-large;
+}
+
+section.services h2{
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+
+.service-top-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.services-highlight-text {
+    font-size: 3rem;
+    margin: unset;
+}
+
+.brand-content-text {
+    color: navy;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+section.home button {
+    background-color: navy;
+    color: white;
+    padding: 0.5rem 2rem;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 1rem 4rem;
+    background-color: rgb(245, 240, 240);
+}
+
+svg {
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding-top: 1rem;
+}
+
+section.home {
+    margin-top: 100px;
+}
+
+footer .address {
+    padding: 0 4rem;
+}
+
+header .brand-name {
+    color: navy;
+    font-size: 1.6rem;
+    font-weight: unset;
+}
+
+header button {
+    background-color: unset;
+    border: 1px solid navy;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+header button:hover {
+    background-color: navy;
+    color: white;
+}
+
+footer {
+    margin-top: 250px;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+footer .brand-name {
+    font-weight: bold;
+}
+
+footer li {
+    margin-top: 0.5rem;
+}
+
+.copywrite {
+    margin-bottom: 100px;
+}
+
+.card h3 {
+    color: navy;
+}
+
+.underline {
+    border-bottom: 2px solid navy;
+}
+
+/* Layout */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    gap: 4rem;
+}
+
+section.home {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div.footer-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+footer .contact ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+section.services .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
+    gap: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}

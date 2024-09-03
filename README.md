@@ -19,9 +19,15 @@ Task URL: [SignUpPage](./LoginPage/signup.html)
 - New Tasks(CSS-Layout) is given and asked to complete
 
 ### Task:
-Build a CSS Layout as given design reference
+- Build a CSS Layout as given design reference
 
-To create
-![Image](./assets/css-layout-design.jpeg)
+    To create
+    ![Image](./assets/css-layout-design.jpeg)
 
-Task URL: [CSS-Layout](./css-layout/index.html)
+    Task URL: [CSS-Layout](./css-layout/index.html)
+
+- Build a webpage similar to NPNG Tech using HTML, CSS. (Only Home, Services, Contact required)
+
+    Referal Website: [NPNG Tech](https://npngtech.in)
+
+    Task URL: [NPNG-Webpage](./npng-tech/index.html)
