@@ -26,7 +26,7 @@ Task URL: [SignUpPage](./LoginPage/signup.html)
 
     Task URL: [CSS-Layout](./css-layout/index.html)
 
-- Build a webpage similar to NPNG Tech using HTML, CSS. (Only Home, Services, Contact required)
+- Build a webpage similar to NPNG Tech using HTML, CSS. (Animation not required)
 
     Referal Website: [NPNG Tech](https://npngtech.in)
 

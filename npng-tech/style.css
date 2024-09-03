@@ -23,6 +23,10 @@ body, header {
     scroll-margin: 120px;
 }
 
+section {
+    margin-top: 100px;
+}
+
 .brand-logo a{
     display: flex;
     align-items: center;
@@ -39,9 +43,6 @@ a:hover {
 
 .section-header {
     color: orange;
-}
-
-section.home .section-header {
     font-size: xx-large;
 }
 
@@ -66,7 +67,7 @@ section.services h2{
     font-weight: bolder;
 }
 
-section.home button {
+section button {
     background-color: navy;
     color: white;
     padding: 0.5rem 2rem;
@@ -152,11 +153,75 @@ footer li {
     border-bottom: 2px solid navy;
 }
 
+section.digit-marketing ul {
+    padding: 0 2rem;
+    list-style: disc;
+}
+
+section.digit-marketing li {
+    margin-bottom: 1rem;
+}
+
+section.about {
+    /* background-image: url('https://npngtech.in/assets/Aboutback-BKZgHvAt.png'); */
+    background-color: rgb(2, 4, 77);
+    color: white;
+}
+
+section.about .about-content h2 {
+    color: orangered;
+}
+
+section.about .about-content h2 span.underline {
+    border-color: white;
+}
+
+section.about button {
+    background-color: white;
+    color: navy;
+}
+
+section.about .about-content-highlight {
+    font-size: 2.5rem;
+}
+
+section.about ul li:before {
+    content: "\f058";
+}
+
+.metrics {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-image: linear-gradient(90deg, blue, rgb(46, 171, 212));
+    color: white;
+    margin-top: 1rem;
+}
+
+.metrics ul li p:nth-child(1) {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.metrics ul li p:nth-child(2) {
+    font-size: 1.1rem;
+}
+
+section.about {
+    padding: 1rem;
+}
+
+section.about .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Layout */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
 }
 
 header ul {
@@ -164,9 +229,11 @@ header ul {
     gap: 4rem;
 }
 
-section.home {
+section.home, section.digit-marketing, section.about {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
 }
 
 footer div.footer-section {
@@ -189,4 +256,76 @@ section.services .cards {
 .card {
     display: flex;
     flex-direction: column;
+}
+
+.metrics ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+section.about ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 768px) {
+    section.home, section.digit-marketing {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    section.about {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    section.about img {
+        height: 200px;
+    }
+    
+    section.about ul {
+        align-self: flex-start;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+        gap: 1rem;
+    }
+
+    section.services .cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
+        gap: 1rem;
+    }
+
+    footer div.footer-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 2fr;
+    }
+
+    footer .footer-section .contact {
+        grid-column: 1 / 4;
+        grid-row: 1 / 2 ;
+    }
+
+    footer .quick-links {
+        grid-column: 1 / 3;
+    }
+
+    .brand-logo a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
