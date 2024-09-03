@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, white, gray);
+    /* background-image-: url('https://stock.adobe.com/in/images/interface-and-background/223858205'); */
+}
+
+main {
+    min-width: 320px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  justify-content: center;
+}
+
+h1, input, button, fieldset, select {
+    margin-bottom: 16px;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    border-radius: 5px;
+    padding: 0.2rem 0;
+    border: 0;
+}
+
+button:active {
+    background-color: gray;
+}
+
+input {
+    border-radius: 3px;
+    border: 0;
+    padding: 0.2rem;
+}
+
+main {
+  background-color: gray;
+  padding: 1%;
+  border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: navy;
+}
