@@ -17,6 +17,7 @@ Task URL: [SignUpPage](./LoginPage/signup.html)
 ### What happend?
 - First, check on yesterdays assignment
 - New Tasks(CSS-Layout) is given and asked to complete
+- Task to create NPNG webpage using HTML and CSS with resposiveness to Tablet view. Animations not requried
 
 ### Task:
 - Build a CSS Layout as given design reference
@@ -31,3 +32,12 @@ Task URL: [SignUpPage](./LoginPage/signup.html)
     Referal Website: [NPNG Tech](https://npngtech.in)
 
     Task URL: [NPNG-Webpage](./npng-tech/index.html)
+
+## Sep-4
+### What Happend?
+- Started basic on JS, task to change JS colot on button click
+
+### Task:
+- Create webpage to change bg color on button click using JS
+
+    Task URL: [Change BG Color](./change-bg-js/index.html)
