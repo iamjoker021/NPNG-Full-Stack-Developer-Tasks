@@ -47,3 +47,6 @@ Had basic introduction, got task to create Login Page and we shared the code for
 
 - Task to fetch data from restcontries api
     Task URL: [Fetch Countries](./countries-fetch/index.html)
+
+- Task to crate currency convertor
+    Task URL: [Currency Convertor](./currency-convertor/index.html)
