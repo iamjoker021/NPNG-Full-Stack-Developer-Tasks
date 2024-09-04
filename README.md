@@ -39,3 +39,8 @@ Had basic introduction, got task to create Login Page and we shared the code for
 - Task to create simple calc using JS
     Task URL: [Simple Calc](./simple-calc/index.html)
 
+- Task to create Intermediate Calc using JS
+    Task URL: [Intermediate Calc](https://github.com/iamjoker021/odin-calculator)
+
+- Task to generate random OTP via JS
+    Task URL: [Gen Random OTP](./random-otp/index.html)
