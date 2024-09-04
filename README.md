@@ -30,7 +30,7 @@ Had basic introduction, got task to create Login Page and we shared the code for
 
 ## Sep-4
 ### What Happend?
-- Started basic on JS, task to change JS colot on button click
+- Started basic on JS, varoious taks invloving DOM manipulation, Math, fetch etc.. are invloved
 
 ### Task:
 - Create webpage to change bg color on button click using JS
@@ -44,3 +44,6 @@ Had basic introduction, got task to create Login Page and we shared the code for
 
 - Task to generate random OTP via JS
     Task URL: [Gen Random OTP](./random-otp/index.html)
+
+- Task to fetch data from restcontries api
+    Task URL: [Fetch Countries](./countries-fetch/index.html)

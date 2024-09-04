@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: darkgray;
+}
+
+.searchbar {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.result {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.result > div {
+    padding: 1rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.result > div > * {
+    margin-bottom: 1rem;
+}
