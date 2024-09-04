@@ -29,11 +29,25 @@ const createBtn = (symbol) => {
         const num1 = parseFloat(document.querySelector('#num1').value);
         const num2 = parseFloat(document.querySelector('#num2').value);
         const result = calcFn[symbol](num1, num2);
-        console.log(num1, num2, result);
 
         const resultCont = document.querySelector('.result p');
-        resultCont.textContent = `${num1} ${symbol} ${num2} = ${result}`;
-        
+        if (!(result || result === 0)) {
+            resultCont.textContent = 'Please enter valid data for num1 and num2'
+        }
+        else {
+            const symMeaning = {
+                '+': 'addition',
+                '-': 'subtraction',
+                '*': 'Multiplication',
+                '/': 'Division'
+            }
+            resultCont.innerHTML = `
+            Operation performed: ${symMeaning[symbol]} <br>
+            The Num1 is ${num1} <br>
+            The Num2 is ${num2} <br>
+            The result is ${result}
+            `
+        }
     }
     return btn
 }
