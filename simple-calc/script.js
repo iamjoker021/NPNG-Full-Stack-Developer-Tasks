@@ -32,7 +32,7 @@ const createBtn = (symbol) => {
         console.log(num1, num2, result);
 
         const resultCont = document.querySelector('.result p');
-        resultCont.textContent = result;
+        resultCont.textContent = `${num1} ${symbol} ${num2} = ${result}`;
         
     }
     return btn
