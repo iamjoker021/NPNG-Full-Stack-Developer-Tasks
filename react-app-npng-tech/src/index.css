@@ -1,0 +1,431 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Style */
+body, header {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.scroll-margin {
+  scroll-margin: 120px;
+}
+
+section {
+  margin-top: 100px;
+}
+
+.brand-logo a{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.brand-logo img{
+  max-width: 50px;
+}
+
+a:hover {
+  color: orange;
+}
+
+.section-header {
+  color: orange;
+  font-size: xx-large;
+}
+
+section.services h2{
+  font-size: xx-large;
+  margin-bottom: 0;
+}
+
+.service-top-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.services-highlight-text {
+  font-size: 3rem;
+  margin: unset;
+}
+
+.brand-content-text {
+  color: navy;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+section button {
+  background-color: navy;
+  color: white;
+  padding: 0.5rem 2rem;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 1rem 4rem;
+  background-color: rgb(245, 240, 240);
+}
+
+svg {
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding-top: 1rem;
+}
+
+section.home {
+  margin-top: 100px;
+}
+
+footer .address {
+  padding: 0 4rem;
+}
+
+header .brand-name {
+  color: navy;
+  font-size: 1.6rem;
+  font-weight: unset;
+}
+
+header button {
+  background-color: unset;
+  border: 1px solid navy;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+header button:hover {
+  background-color: navy;
+  color: white;
+}
+
+footer {
+  margin-top: 250px;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+footer .brand-name {
+  font-weight: bold;
+}
+
+footer li {
+  margin-top: 0.5rem;
+}
+
+.copywrite {
+  margin-bottom: 100px;
+}
+
+.card h3 {
+  color: navy;
+}
+
+.underline {
+  border-bottom: 2px solid navy;
+}
+
+section.digit-marketing ul {
+  padding: 0 2rem;
+  list-style: disc;
+}
+
+section.digit-marketing li {
+  margin-bottom: 1rem;
+}
+
+section.about {
+  /* background-image: url('https://npngtech.in/assets/Aboutback-BKZgHvAt.png'); */
+  background-color: rgb(2, 4, 77);
+  color: white;
+}
+
+section.about .about-content h2 {
+  color: orangered;
+}
+
+section.about .about-content h2 span.underline {
+  border-color: white;
+}
+
+section.about button {
+  background-color: white;
+  color: navy;
+}
+
+section.about .about-content-highlight {
+  font-size: 2.5rem;
+}
+
+section.about ul li:before {
+  content: "\f058";
+}
+
+.metrics {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-image: linear-gradient(90deg, blue, rgb(46, 171, 212));
+  color: white;
+  margin-top: 1rem;
+}
+
+.metrics ul li p:nth-child(1) {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.metrics ul li p:nth-child(2) {
+  font-size: 1.1rem;
+}
+
+section.about {
+  padding: 1rem;
+}
+
+section.about .about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.enquiry {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 1px 2px lightgray;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputField label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.inputField input, .inputField textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.inputField input:focus, .inputField textarea:focus {
+  border: 1px solid navy; 
+}
+
+.inputField input:active, .inputField textarea:active {
+  border: 1px solid navy; 
+}
+
+/* Layout */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+header ul {
+  display: flex;
+  gap: 4rem;
+}
+
+section.home, section.digit-marketing, section.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer div.footer-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+footer .contact ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+section.services .cards, section.blogs .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+  gap: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.metrics ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+section.about ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+form button {
+  grid-column: 1 / 3;
+  align-self: center;
+  justify-content: center;
+  width: 15%;
+  margin: auto;
+}
+
+.blog-page {
+  margin-top: 200px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 768px) {
+  section.home, section.digit-marketing {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+  }
+
+  section.about {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+  }
+
+  section.about img {
+      height: 200px;
+  }
+  
+  section.about ul {
+      align-self: flex-start;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(auto, 1fr);
+      gap: 1rem;
+  }
+
+  section.services .cards, section.blogs .cards {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(auto, 1fr);
+      gap: 1rem;
+  }
+
+  footer div.footer-section {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr 2fr;
+  }
+
+  footer .footer-section .contact {
+      grid-column: 1 / 4;
+      grid-row: 1 / 2 ;
+  }
+
+  footer .quick-links {
+      grid-column: 1 / 3;
+  }
+
+  .brand-logo a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .brand-logo h1 {
+      display: inline-block;
+      white-space:nowrap;
+  }
+
+  header{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+  }
+
+  .brand-logo {
+      grid-row: 1 / 2;
+      grid-column: 1 / 2;
+  }
+
+  header button {
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+  }
+
+  header nav {
+      grid-column: 1 / 3;
+      justify-self: center;
+  }
+
+  section.home {
+      margin-top: 200px;
+  }
+
+  .scroll-margin {
+      scroll-margin: 200px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .enquiry h3 {
+    margin-bottom: 1rem;
+  }
+
+  form button {
+    width: 40%;
+  }
+
+}
